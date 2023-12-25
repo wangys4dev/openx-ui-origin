@@ -1,0 +1,44 @@
+{
+  "name": "@openx-ui/shared",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "OpenX",
+  "license": "MIT",
+  "homepage": "https://github.com/wangys4dev/openx-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangys4dev/openx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangys4dev/openx-ui/issues"
+  },
+  "main": "",
+  "module": "",
+  "types": "",
+  "exports": {
+    ".": {
+      "require": "",
+      "module": "",
+      "types": ""
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "echo dev",
+    "build": "echo build",
+    "test": "echo test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  }
+}
