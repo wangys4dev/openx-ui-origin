@@ -17,14 +17,14 @@
   "bugs": {
     "url": "https://github.com/wangys4dev/openx-ui/issues"
   },
-  "main": "",
-  "module": "",
-  "types": "",
+  "main": "./dist/openx-ui-button.umd.js",
+  "module": "./dist/openx-ui-button.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "",
-      "module": "",
-      "types": ""
+      "require": "./dist/openx-ui-button.umd.js",
+      "module": "./dist/openx-ui-button.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
@@ -33,10 +33,12 @@
   ],
   "scripts": {
     "dev": "echo dev",
-    "build": "echo build",
+    "build": "vite build",
     "test": "echo test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@openx-ui/shared": "workspace:^"
+  },
   "devDependencies": {},
   "peerDependencies": {
     "vue": ">=3.0.0"

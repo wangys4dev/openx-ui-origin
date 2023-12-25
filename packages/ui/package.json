@@ -1,5 +1,5 @@
 {
-  "name": "@openx-ui/input",
+  "name": "@openx-ui/ui",
   "version": "0.0.0",
   "description": "",
   "keywords": [
@@ -17,13 +17,13 @@
   "bugs": {
     "url": "https://github.com/wangys4dev/openx-ui/issues"
   },
-  "main": "./dist/openx-ui-input.umd.js",
-  "module": "./dist/openx-ui-input.mjs",
+  "main": "./dist/openx-ui.umd.js",
+  "module": "./dist/openx-ui.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/openx-ui-input.umd.js",
-      "module": "./dist/openx-ui-input.mjs",
+      "require": "./dist/openx-ui.umd.js",
+      "module": "./dist/openx-ui.mjs",
       "types": "./dist/index.d.ts"
     }
   },
@@ -37,6 +37,8 @@
     "test": "echo test"
   },
   "dependencies": {
+    "@openx-ui/button": "workspace:^",
+    "@openx-ui/input": "workspace:^",
     "@openx-ui/shared": "workspace:^"
   },
   "devDependencies": {},
