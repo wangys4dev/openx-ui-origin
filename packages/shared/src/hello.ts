@@ -1,5 +1,4 @@
 export function hello(to: string = 'world') {
-  const text = `hello ${to}`
-  alert(text)
-  return text
+  const text = `hello ${to}`;
+  return text;
 }

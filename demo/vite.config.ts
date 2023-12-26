@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import { join } from 'path'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import { join } from 'path';
 
 export default defineConfig({
   plugins: [vue()],
@@ -16,4 +16,4 @@ export default defineConfig({
     host: true,
     open: true,
   },
-})
+});

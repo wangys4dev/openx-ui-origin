@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Button, Input } from '@openx-ui/ui'
+import { Button, Input } from '@openx-ui/ui';
 </script>
 
 <template>
@@ -8,5 +8,3 @@ import { Button, Input } from '@openx-ui/ui'
     <Input />
   </div>
 </template>
-
-<style scoped lang="scss"></style>
